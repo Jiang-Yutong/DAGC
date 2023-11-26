@@ -1,14 +1,14 @@
 # DAGC: Data-Volume-Aware Adaptive Sparsification Gradient Compression for Distributed Machine Learning in Mobile Computing
 
-This repository is the implementation of  [DAGC: Data-Volume-Aware Adaptive Sparsification Gradient Compression for Distributed Machine Learning in Mobile Computing](https://arxiv.org/abs/2311.07324). Our code reference https://github.com/felisat/federated-learning.
+This repository is the implementation of  [DAGC: Data-Volume-Aware Adaptive Sparsification Gradient Compression for Distributed Machine Learning in Mobile Computing](https://arxiv.org/abs/2311.07324). Our code references the repository https://github.com/felisat/federated-learning.
 
-### Usage
+## Usage
 
 `python main.py --dataset='CIFAR10' --model='CNN3'`
 
 will run the experiment on the CIFAR10 dataset.
 
-### Citation
+## Citation
 
 [Paper](https://arxiv.org/abs/2311.07324)
 
