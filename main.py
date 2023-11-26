@@ -117,16 +117,7 @@ if args.niid > 0:
     data_distribution_config["cus_distribution"] = [args.niid] * args.n_clients
 
 if args.skew > 1 or args.DAGC:
-    ratio_matrix = [[1,1,1,1,1,1,1,1,1,1],
-                    [1,1,1,1,1,1,1,1,1,1],
-                    [1,1,1,1,1,1,1,1,1,1],
-                    [1,1,1,1,1,1,1,1,1,1],
-                    [1,1,1,1,1,1,1,1,1,1],
-                    [1,1,1,1,1,1,1,1,1,1],
-                    [1,1,1,1,1,1,1,1,1,1],
-                    [1,1,1,1,1,1,1,1,1,1],
-                    [0,0,0,1,1,1,0,0,0,0],
-                    [1,1,0,0,0,0,0,0,0,1]]
+    ratio_matrix = np.random.dirichlet(np.repeat(1,10), size=args.n_clients)
     ratio_matrix = MFL.algo.get_skew_distribution(ratio_matrix,args.skew)
 
     ratio_matrix = sorted(ratio_matrix, key=lambda x: sum(x), reverse=True)

@@ -224,7 +224,7 @@ def ratio_matrix_to_num_matrix(labels, ratio_matrix):
     # Get the total number of proportions, and the data volume of a proportion
     ratio_sum = np.sum(ratio_matrix, axis=0)  # Get the total number of proportions of each labeled data
     # one_ratio_num = labels_num / ratio_sum  # the data volume of a proportion
-    one_ratio_num = labels_num / np.max(ratio_sum) # 假设每个label数量相同，保证client有的label对应的sample数相同
+    one_ratio_num = labels_num / ratio_sum
 
     # get data number matrix
     num_matrix = []
