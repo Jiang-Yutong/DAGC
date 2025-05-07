@@ -12,4 +12,21 @@ will run the experiment on the CIFAR10 dataset.
 
 [Paper](https://arxiv.org/abs/2311.07324)
 
-Rongwei Lu, Yutong Jiang, Yinan Mao, Chen Tang, Bin Chen, Laizhong Cui and Zhi Wang. (2023). DAGC: Data-Volume-Aware Adaptive Sparsification Gradient Compression for Distributed Machine Learning in Mobile Computing. arXiv preprint arXiv: 2311.07324
+```
+@inproceedings{lu2023dagc,
+  title={Dagc: Data-aware adaptive gradient compression},
+  author={Lu, Rongwei and Song, Jiajun and Chen, Bin and Cui, Laizhong and Wang, Zhi},
+  booktitle={IEEE INFOCOM 2023-IEEE Conference on Computer Communications},
+  pages={1--10},
+  year={2023},
+  organization={IEEE}
+}
+
+​@article{lu2024data,
+  title={Data-Aware Gradient Compression for FL in Communication-Constrained Mobile Computing},
+  author={Lu, Rongwei and Jiang, Yutong and Mao, Yinan and Tang, Chen and Chen, Bin and Cui, Laizhong and Wang, Zhi},
+  journal={IEEE Transactions on Mobile Computing},
+  year={2024},
+  publisher={IEEE}
+}
+```
