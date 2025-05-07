@@ -10,8 +10,6 @@ will run the experiment on the CIFAR10 dataset.
 
 ## Citation
 
-[Paper](https://arxiv.org/abs/2311.07324)
-
 ```
 @inproceedings{lu2023dagc,
   title={Dagc: Data-aware adaptive gradient compression},
